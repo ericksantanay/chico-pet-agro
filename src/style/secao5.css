@@ -1,0 +1,49 @@
+.secao-5 {
+    margin-bottom: 5%;
+}
+
+#titulo-diferenciais {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+#container-cards-do-diferenciais {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+    gap: 60px;
+}
+
+.cards-diferenciais {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 300px;
+    box-shadow: 1px 1px 10px #00000055;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    transform: scale(1);
+}
+
+/*  */
+.cards-diferenciais:hover {
+    transform: scale(1.03);
+}
+
+.cards-diferenciais > img {
+    width: 60px;
+}
+
+.cards-diferenciais > h2 {
+    font-size: 27px;
+}
+
+.cards-diferenciais > p {
+    font-size: 20px;
+    line-height: 30px;
+}
