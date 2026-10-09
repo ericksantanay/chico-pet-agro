@@ -1,52 +1,54 @@
-header {
-    padding: 20px 5%;
-    width: 100%;
+.secao-inicio {
+    margin-bottom: 12%;
+}
+
+#container-primeira-secao {
+    display: flex;
+    align-items: center;
     background-color: var(--roxo);
+    padding: 30px;
 }
 
-#container-nav-bar {
-    display: flex;
-    align-items: center;
+.container-textos {
+    width: 46%;
 }
 
-#container-logo > img {
-    width: 126px;
+.container-textos > h1 {
+    font-size: 48px;
+    font-family: var(--montserrat);
+    color: var(--branco);
 }
 
-#container-links-de-navegacao {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#links-de-navegacao-desktop {
-    display: flex;
-    gap: 25px;
-    background-color: var(--branco);
-    padding: 11px 25px;
-    border-radius: 40px;
-}
-
-#links-de-navegacao-clular {
-    display: none;
-}
-
-#links-de-navegacao-desktop > ul > li, #links-de-navegacao-clular > ul > li {
-    list-style: none;
-}
-
-#links-de-navegacao-desktop > ul > li > a, #links-de-navegacao-clular > ul > li > a {
-    color: var(--cinza);
-    text-decoration: none;
-    font-family: var(--poppins);
+.container-textos > p {
+    font-size: 23px;
+    font-family: var(--montserrat);
+    color: var(--branco);
     font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 35px;
 }
 
-#links-de-navegacao-desktop > ul > li > a:hover, #links-de-navegacao-clular > ul > li > a:hover {
+#bnt-conhecer-servicos {
+    font-size: 26px;
+    font-weight: bold;
     color: var(--preto);
+    background-color: var(--branco);
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: .3s ease-in-out;
 }
 
-#menu-mobile {
-    display: none;
+#bnt-conhecer-servicos:hover {
+    box-shadow: 1px 1px 10px var(--branco);
+}
+
+.container-img-cachorro {
+    width: 10%;
+}
+
+.container-img-cachorro > img {
+    width: 700px;
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
 }

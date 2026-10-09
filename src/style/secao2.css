@@ -1,54 +1,84 @@
-#secao-inicio {
-    margin-bottom: 12%;
+.secao-2 {
+    margin-bottom: 100px;
 }
 
-#container-primeira-secao {
+/* TITULO */
+#titulo-secao-2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+/* CONTAINER  TITULO FOTO E CARDS*/
+#container-sobre-nos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+/* CONTAINER TITULO E FOTO  */
+#container-titulo-e-foto {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+/* TITULO E TEXTO */
+.lado-do-titulo-e-texto {
+    width: 50%;
+}
+
+/* TITULO */
+.lado-do-titulo-e-texto > h2 {
+    font-weight:600 ;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+/* PARAGRAFO */
+.lado-do-titulo-e-texto > p {
+    font-size: 27px;
+}
+
+/* FOTO */
+#container-da-imagem > img {
+    width: 520px;
+    height: 474px;
+    border-radius: 10px;
+}
+
+/* CONTAINER DOS CARDS */
+#container-dos-cards-do-sobre-nos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/* CARDS */
+.card-dos-blocos {
+    border: 1px solid var(--roxo);
+    border-radius:10px;
+    padding: 15px;
+    cursor: pointer;
+     transform: scale(1);
+     transition: .3s ease-in-out;
+}
+
+.card-dos-blocos:hover {
+    transform: scale(1.05);
+}
+
+/* TITULO E ICONE DOS CARDS */
+.titulo-e-icone-sobre-nos {
     display: flex;
     align-items: center;
-    background-color: var(--roxo);
-    padding: 30px;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
-.container-textos {
-    width: 46%;
-}
-
-.container-textos > h1 {
-    font-size: 48px;
-    font-family: var(--montserrat);
-    color: var(--branco);
-}
-
-.container-textos > p {
-    font-size: 23px;
-    font-family: var(--montserrat);
-    color: var(--branco);
-    font-weight: 500;
-    margin-top: 25px;
-    margin-bottom: 35px;
-}
-
-#bnt-conhecer-servicos {
-    font-size: 26px;
-    font-weight: bold;
-    color: var(--preto);
-    background-color: var(--branco);
-    padding: 12px 25px;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: .3s ease-in-out;
-}
-
-#bnt-conhecer-servicos:hover {
-    box-shadow: 1px 1px 10px var(--branco);
-}
-
-.container-img-cachorro {
-    width: 10%;
-}
-
-.container-img-cachorro > img {
-    width: 700px;
-    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
-    mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+/* ICONE */
+.titulo-e-icone-sobre-nos > img {
+    width: 45px;
 }

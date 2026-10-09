@@ -1,0 +1,118 @@
+.secao-4 {
+    padding: 20px;
+    margin-bottom: 2%;
+}
+
+/* TITULO SEÇÃO 4 */
+#titulo-secao-4 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+/* CONTAINER */
+#container-localizacao-contato {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    background-color: #F3F4F6;
+    border: 1px solid var(--roxo);
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+
+#lado-esquerdo-secao-4 > iframe {
+    border-radius: 20px;
+    width: 750px;
+    height: 400px
+}
+
+#endereco-e-horario {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/*  */
+#campo-de-endereco, #campo-de-horario {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/*  */
+.contanier-icone {
+    padding: 15px;
+    width: max-content;
+    height: max-content;
+    background-color: var(--roxo);
+    border-radius: 15px;
+}
+
+/* ICONES */
+.contanier-icone > img {
+    text-align: center;
+    width: 40px;
+}
+
+.container-campo-de-textos-local > p {
+    margin-bottom: 5px;
+}
+
+.container-campo-de-textos-local > h3 {
+    margin-bottom: 5px;
+}
+
+#titulo-horario-atendimento {
+    margin-bottom: 5px;
+}
+
+.horarios-semana, .horarios-fim-semana {
+    display: flex;
+    gap: 28px;
+}
+
+.horarios-fim-semana {
+    border-top: 1px solid var(--cinza);
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.container-btn-entrar-em-contato-e-icones {
+    padding: 17px;
+    background-color: var(--roxo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.container-btn-entrar-em-contato-e-icones:hover {
+    background-color: rgb(67, 0, 122);
+    box-shadow: 1px 1px 10px var(--roxo);
+}
+
+
+.icone-e-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#bnt-entrar-em-contato {
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+
+
+
+.container-btn-entrar-em-contato-e-icones > img, .icone-e-link > img {
+    width: 24px;
+}
