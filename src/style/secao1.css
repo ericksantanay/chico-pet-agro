@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     background-color: var(--roxo);
-    padding: 30px;
+    padding: 0px 30px;
 }
 
 .container-textos {
@@ -51,4 +51,12 @@
     width: 700px;
     -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
     mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+}
+
+#container-imagem-ondulacao {
+    width: 100%;
+}
+
+#container-imagem-ondulacao > img {
+    width: 100%;
 }
