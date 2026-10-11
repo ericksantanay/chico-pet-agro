@@ -1,12 +1,14 @@
 .secao-inicio {
-    margin-bottom: 12%;
+    max-width: 100%;
 }
 
 #container-primeira-secao {
+    max-width: 100%;
     display: flex;
     align-items: center;
     background-color: var(--roxo);
-    padding: 0px 30px;
+    padding: 0 30px;
+    box-sizing: border-box;
 }
 
 .container-textos {
@@ -44,19 +46,40 @@
 }
 
 .container-img-cachorro {
-    width: 10%;
+    width: 54%;
+    min-width: 0;
 }
 
 .container-img-cachorro > img {
-    width: 700px;
-    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
-    mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        black 50%,
+        transparent 100%
+    );
+
+    mask-image: linear-gradient(
+        to bottom,
+        black 90%,
+        transparent 100%
+    );
 }
 
 #container-imagem-ondulacao {
     width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    overflow: hidden;
 }
 
 #container-imagem-ondulacao > img {
+    display: block;
     width: 100%;
+    max-width: 100%;
+    height: auto;
 }
