@@ -39,7 +39,6 @@
         position: absolute;
         background-color: var(--roxo);
         opacity: 0.90;
-        
     }
 
     #links-de-navegacao-celular > ul > li > a {
@@ -48,7 +47,6 @@
         color: var(--branco);
         margin-bottom: 30px;
     }
-
 
 
     /* PRIMEIRA SEÇÃO */

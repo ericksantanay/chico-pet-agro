@@ -1,0 +1,103 @@
+/* BASE */
+.animar {
+    opacity: 0;
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+/* TÍTULOS */
+.animar-titulo {
+    transform: translateY(30px);
+}
+
+.animar-titulo.ativo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* TEXTOS */
+.animar-texto {
+    transform: translateY(15px);
+    transition-duration: 0.8s;
+}
+
+.animar-texto.ativo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* CARDS */
+.animar-card {
+    transform: translateY(45px) scale(0.96);
+    transition:
+        opacity 0.6s ease,
+        transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.animar-card.ativo {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* IMAGENS PELA ESQUERDA */
+.animar-imagem {
+    transform: translateX(-40px);
+}
+
+.animar-imagem.ativo {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* ELEMENTOS PELA DIREITA */
+.animar-direita {
+    transform: translateX(40px);
+}
+
+.animar-direita.ativo {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* BOTÕES */
+.animar-botao {
+    transform: translateY(20px);
+    transition-duration: 0.6s;
+}
+
+.animar-botao.ativo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ZOOM */
+.animar-zoom {
+    transform: scale(0.94);
+}
+
+.animar-zoom.ativo {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* ATRASOS */
+.animar-atraso-1 {
+    transition-delay: 0.1s;
+}
+
+.animar-atraso-2 {
+    transition-delay: 0.2s;
+}
+
+.animar-atraso-3 {
+    transition-delay: 0.3s;
+}
+
+/* MOVIMENTO REDUZIDO */
+@media (prefers-reduced-motion: reduce) {
+    .animar,
+    .animar.ativo {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
