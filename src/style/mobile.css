@@ -90,12 +90,11 @@
     /* PARTE DA 2 SEÇÃO */
     .lado-do-titulo-e-texto {
         width: 100%;
-        
     }
 
     #container-titulo-e-foto {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .lado-do-titulo-e-texto > h2 {
@@ -164,7 +163,6 @@
     }
     
 
-
     .container-btn-entrar-em-contato-e-icones > img {
         width: 20px;
     }
@@ -174,9 +172,6 @@
     }
 
     /* SEÇÃO 5 */
-    #container-cards-do-diferenciais {
-    }
-
     .cards-diferenciais {
         padding: 20px;
         border-bottom: 1px solid #919090;
@@ -245,5 +240,27 @@
      /* 1 SEÇÃO */
     #container-primeira-secao {
         height: 46vh;
+    }
+}
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+
+    .secao-2 {
+        margin-top: 25%;
+    }
+
+    #container-da-imagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        overflow: hidden; 
+    }
+
+    #container-da-imagem > img {
+        max-height: 180px; 
+        width: auto;       
+        object-fit: cover;
+        margin: 10px 0;    
     }
 }
