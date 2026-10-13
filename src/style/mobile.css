@@ -31,21 +31,9 @@
         font-size: 35px;
     }
 
-    #links-de-navegacao-celular {
-        width: 87%;
-        height: 440px;
-        top: -20px;
-        padding: 60px 20px;
-        position: absolute;
-        background-color: var(--roxo);
-        opacity: 0.90;
-    }
-
-    #links-de-navegacao-celular > ul > li > a {
-        font-size: 20px;
-        display: flex;
-        color: var(--branco);
-        margin-bottom: 30px;
+    #fechar-menu-mobile {
+        font-size: 35px;
+        padding: 10px;
     }
 
 
@@ -53,7 +41,7 @@
     .secao-inicio {
         width: 100%;
         height: 80vh;
-        overflow: hidden;
+        
     }
 
     #container-primeira-secao {
@@ -94,7 +82,7 @@
 
     #container-imagem-ondulacao > img {
         display: block;
-        max-width: 100%;
+        max-width: 100vw;
         height: auto;
     }
 
