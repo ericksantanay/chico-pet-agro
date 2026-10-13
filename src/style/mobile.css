@@ -168,19 +168,14 @@
         width: 100%;
     }
 
-    .container-btn-entrar-em-contato-e-icones {
+    #lado-direito-secao-4 {
+       padding: 10px;
         display: flex;
-        gap: 10px;
+        flex-direction: column;
+        align-items: center;
     }
+    
 
-    .icone-e-link {
-        display: flex;
-        gap: 10px;
-    }
-
-    .icone-e-link > img {
-        width: 20px;
-    }
 
     .container-btn-entrar-em-contato-e-icones > img {
         width: 20px;
@@ -190,18 +185,29 @@
         font-size: 20px;
     }
 
+    /* SEÇÃO 5 */
+    #container-cards-do-diferenciais {
+    }
+
+    .cards-diferenciais {
+        padding: 20px;
+        border-bottom: 1px solid #919090;
+        border-right: none;
+    }
+
 
     /* PARTE DO FOOTER */
     #coluna-1 > img {
         width: 100px;
     }
 
-    #coluna-2 > h1 {
-        font-size: 25px;
+    #container-imagens {
+        flex-direction: column;
+        text-align: center;
     }
 
-    #coluna-3 > a > img {
-        width: 20px;
+    #container-imagens > a > img {
+        width: 35px;
     }
 }
 

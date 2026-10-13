@@ -1,13 +1,14 @@
 .secao-4 {
-    padding: 20px;
-    margin-bottom: 10%;
+    margin-bottom: 12%;
 }
 
 /* TITULO SEÇÃO 4 */
 #titulo-secao-4 {
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: 900;
+    padding-left: 0px;
+    color: var(--roxo);
+    margin-bottom: 20px;
 }
 
 /* CONTAINER */
@@ -15,16 +16,17 @@
     display: flex;
     justify-content: center;
     gap: 28px;
-    background-color: #F3F4F6;
-    border: 1px solid var(--roxo);
-    border-radius: 10px;
-    padding: 50px 20px;
+    padding: 20px;
 }
 
 #lado-esquerdo-secao-4 > iframe {
-    border-radius: 20px;
-    width: 750px;
-    height: 400px
+    width: 950px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+#lado-direito-secao-4 {
+    padding-top: 70px;
 }
 
 #endereco-e-horario {
@@ -38,21 +40,6 @@
     display: flex;
     align-items: center;
     gap: 8px;
-}
-
-/*  */
-.contanier-icone {
-    padding: 15px;
-    width: max-content;
-    height: max-content;
-    background-color: var(--roxo);
-    border-radius: 15px;
-}
-
-/* ICONES */
-.contanier-icone > img {
-    text-align: center;
-    width: 40px;
 }
 
 .container-campo-de-textos-local > p {
@@ -97,7 +84,7 @@
 }
 
 
-.icone-e-link {
+.container-btn-entrar-em-contato-e-icones {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -106,13 +93,12 @@
 #bnt-entrar-em-contato {
     color: var(--branco);
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     transition: .3s ease-in-out;
 }
 
 
-
-.container-btn-entrar-em-contato-e-icones > img, .icone-e-link > img {
+.container-btn-entrar-em-contato-e-icones > img {
     width: 24px;
 }

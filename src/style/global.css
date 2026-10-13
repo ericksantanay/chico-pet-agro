@@ -25,5 +25,9 @@
     --branco: #FFFFFF;
     --laranja: #F86E13;
     --preto: #000000;
-    --cinza: #494848;
+    --cinza: #3f3e3e;
+}
+
+html {
+    scroll-behavior: smooth;
 }

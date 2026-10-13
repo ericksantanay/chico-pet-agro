@@ -20,7 +20,8 @@ footer {
     gap: 20px;
 }
 
-#coluna-2 > h1 {
+#coluna-2 > p {
+    font-weight: 600;
     color: var(--branco);
 }
 
@@ -37,16 +38,26 @@ footer {
 
 #coluna-3 {
     display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
+#coluna-3 > p {
+    font-weight: 600;
+    color: var(--branco);
+}
 
-#coluna-3 > a > img {
-    width: 45px;
+#container-imagens {
+    display: flex;
+    gap: 30px;
+}
+
+#container-imagens > a > img {
+    width: 40px;
     transition: .3s ease-in-out;
 }
 
-#coluna-3 > a > img:hover {
+#container-imagens > a > img:hover {
     border-radius: 20px;
 }
 

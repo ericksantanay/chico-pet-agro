@@ -1,13 +1,14 @@
 .secao-2 {
-    margin-top: 20%;
+    margin-top: 5%;
     margin-bottom: 100px;
 }
 
 /* TITULO */
 #titulo-secao-2 {
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 80px;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: var(--roxo);
 }
 
 /* CONTAINER  TITULO FOTO E CARDS*/
@@ -15,7 +16,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px;
+    padding: 0px 50px;
 }
 
 /* CONTAINER TITULO E FOTO  */
@@ -27,25 +28,18 @@
 
 /* TITULO E TEXTO */
 .lado-do-titulo-e-texto {
-    width: 50%;
-}
-
-/* TITULO */
-.lado-do-titulo-e-texto > h2 {
-    font-weight:600 ;
-    font-size: 35px;
-    margin-bottom: 30px;
+    width: 70%;
 }
 
 /* PARAGRAFO */
 .lado-do-titulo-e-texto > p {
-    font-size: 27px;
+    font-size: 25px;
 }
 
 /* FOTO */
 #container-da-imagem > img {
-    width: 520px;
-    height: 474px;
+    width: 300px;
+    height: 274px;
     border-radius: 10px;
 }
 
